@@ -78,17 +78,19 @@ CNVplot<- function (df,Start,End,copyNumber,genome,title,yLabel) {
     chrTemp <- chr
     chrTemp <- gsub("chr", "", chrTemp)
     chrQuery <- paste("chr", chrTemp, sep = "")
-    userGenes <- subset(exons, chr == chrQuery & ((txStart > start & txEnd < end) | (txStart < start & txEnd < end & txEnd > start) | (txStart > start & txEnd > end & txStart < end) | (txStart < start & txStart < end & txEnd > start & txEnd > end)))
+    userGenes <- subset(hg19_exons, chr == chrQuery & ((txStart > start & txEnd < end) | (txStart < start & txEnd < end & txEnd > start) | (txStart > start & txEnd > end & txStart < end) | (txStart < start & txStart < end & txEnd > start & txEnd > end)))
+    hg19_exons<-NULL
+    rm(hg19_exons)
   }
   else if (genome == 38 | genome == "hg38"){
     data(hg38_exons)
     chrTemp <- chr
     chrTemp <- gsub("chr", "", chrTemp)
     chrQuery <- paste("chr", chrTemp, sep = "")
-    userGenes <- subset(exons, chr == chrQuery & ((txStart > start & txEnd < end) | (txStart < start & txEnd < end & txEnd > start) | (txStart > start & txEnd > end & txStart < end) | (txStart < start & txStart < end & txEnd > start & txEnd > end)))
+    userGenes <- subset(hg38_exons, chr == chrQuery & ((txStart > start & txEnd < end) | (txStart < start & txEnd < end & txEnd > start) | (txStart > start & txEnd > end & txStart < end) | (txStart < start & txStart < end & txEnd > start & txEnd > end)))
+    hg38_exons<-NULL
+    rm(hg38_exons)
   }
-  exons<-NULL
-  remove(exons)
   if (nrow(userGenes) == 0) {
     if (nrow(df) == 1) {
       plot.start <- plot.start - (1000/offset)
