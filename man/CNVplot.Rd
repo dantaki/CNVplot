@@ -8,7 +8,7 @@ CNVplot(df,Start,End,copyNumber,genome,title,yLabel)
 Plots CNV data (eg: LogRRatio, Coverage) with a genomic viewer.
 }
 \arguments{
-  \item{df}{Imput data frame: columns must be ordered <chromosome, position, proband, mother, father>. For plots with just one sample only pass <chromosome, position, sample_data>}
+  \item{df}{Input data frame: columns must be ordered <chromosome, position, proband, mother, father>. For plots with just one sample only pass <chromosome, position, sample_data>}
 
   \item{Start}{Start position of the CNV}
   \item{End}{End position of the CNV}
