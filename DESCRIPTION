@@ -1,0 +1,10 @@
+Package: CNVplot
+Type: Package
+Title: Plot CNV data with a gene viewer
+Version: 1.0
+Date: 2016-09-27
+Author: Danny Antaki
+Maintainer: Danny Antaki <dantaki@ucsd.edu>
+Description: Plot CNV data (eg: LogRRatio, Coverage, etc.) with a gene window below. Supports either 1 sample or a trio and hg19 or hg38 builds.
+License: MIT
+LazyData: TRUE
