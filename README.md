@@ -20,14 +20,21 @@ CNVplot(df,Start,End,copyNumber,genome,title,yLabel)
 ```
 ### Arguments
   
-  * **df**    Input data frame: **See Inputs for formatting requirements**
+  * **df**
+	* Input data frame: **See Inputs for formatting requirements**
 
-  * **Start**    Start position of the CNV
-  * **End**    End position of the CNV
-  * **copyNumber**    Copy number state. Deletion arguments: DEL,del,<2. Duplication arguments: DUP,dup,>2
-  * **genome**    Reference genome build either hg19 or hg38
-  * **title**    Title of the plot
-  * **yLabel**    Y label
+  * **Start**    
+	* Start position of the CNV
+  * **End**    
+	* End position of the CNV
+  * **copyNumber**
+	* Copy number state. Deletion arguments: DEL,del,<2. Duplication arguments: DUP,dup,>2
+  * **genome**
+	* Reference genome build either hg19 or hg38
+  * **title**
+	* Title of the plot
+  * **yLabel**
+	* Y label
 
 ## Inputs
 
