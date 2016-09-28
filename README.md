@@ -2,6 +2,7 @@
 =======
 
 Plot CNV data with a genome viewer in R.
+> __de novo_ deletion in a control proband
 
 ![_de novo_ deletion in a control proband](CNVplot.jpg)
 
