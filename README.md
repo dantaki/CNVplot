@@ -3,9 +3,9 @@
 
 Plot CNV data with a genome viewer in R.
 
-![_de novo_ deletion in a control child][https://cloud.githubusercontent.com/assets/6598195/18900924/1b749b26-84fb-11e6-90e5-a710531bd1ca.jpg]
+![]CNVplot.jpg
 
-[Brandler, W. M., Antaki, D., & Gujral, M. (2015). Frequency and complexity of de novo structural mutation in autism. Am J Hum Genet. doi:10.1101/030270](https://www.ncbi.nlm.nih.gov/pubmed/27018473)
+>[Brandler, W. M., Antaki, D., & Gujral, M. (2015). Frequency and complexity of de novo structural mutation in autism. Am J Hum Genet. doi:10.1101/030270](https://www.ncbi.nlm.nih.gov/pubmed/27018473)
 
 ## Installation
 
