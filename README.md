@@ -2,9 +2,8 @@
 =======
 
 Plot CNV data with a genome viewer in R.
-> __de novo_ deletion in a control proband
 
-![_de novo_ deletion in a control proband](CNVplot.jpg)
+![alt text](https://github.com/dantaki/CNVplot/CNVplot.jpg "_de novo_ deletion in a control proband")
 
 >[<sub>Brandler, W. M., Antaki, D., & Gujral, M. (2015). Frequency and complexity of de novo structural mutation in autism. Am J Hum Genet. doi:10.1101/030270</sub>](https://www.ncbi.nlm.nih.gov/pubmed/27018473)
 
