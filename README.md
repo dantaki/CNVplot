@@ -1,5 +1,4 @@
 # CNVplot
-=======
 
 Plot CNV data with a genome viewer in R.
 
@@ -46,7 +45,7 @@ chr8 | 1023 | 0.12
 * Trio
 
 CHROM | POSITION | PROBAND | MOTHER | FATHER
---- | --- | --- | --- | --- | ---
+------| -------- | ------- | ------ | ------
 chr8 | 1000 | -0.56 | 0.13 | -0.43 
 chr8 | 1023 | 0.12 | -0.63 | 0.26
 
